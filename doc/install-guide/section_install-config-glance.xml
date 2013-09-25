@@ -8,7 +8,7 @@
     version="5.0">
   <title>Installing and Configuring the Image Service</title>
 
-  <para>Install the Identy Service on the controller node.</para>
+  <para>Install the Image Service on the controller node.</para>
   <screen os="ubuntu"><prompt>#</prompt> <userinput>sudo apt-get install glance</userinput></screen>
   <screen os="rhel;centos;fedora"><prompt>#</prompt> <userinput>yum install openstack-glance</userinput></screen>
   <screen os="opensuse"><prompt>#</prompt> <userinput>zypper install openstack-glance</userinput></screen>
