@@ -3,9 +3,11 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0"
     xml:id="ch_installing-openstack-image">
-    <title>Installing OpenStack Image Service</title>
+    <title>Image Service</title>
+
+    <remark><para>FIXME: Add either intro text or a Concepts section</para></remark>
+
     <xi:include href="section_install-config-glance.xml" />
-    <xi:include href="section_image-troubleshooting.xml" />
     <xi:include href="section_images-verifying-install.xml" />
     </chapter>
 

@@ -3,12 +3,28 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0"
     xml:id="ch_installing-openstack-identity-service">
-    <title>Install the OpenStack Identity Service</title>
-    <para>The Identity Service manages users and tenants, which are
-        accounts or projects, and offers a common identity system for
-        all OpenStack projects.</para>
-    <xi:include href="../common/section_keystone-concepts.xml"/>
+
+    <title>Identity Service</title>
+
+    <!--
+        FIXME: Way too much stuff in the entire section. Just include part of
+        it for now. Might be worth just copying/rewriting directly.
+    -->
+    <section xml:id="identity-concepts">
+      <title>Identity Service Concepts</title>
+      <xi:include href="../common/section_keystone-concepts.xml"
+                  xpointer="xmlns(db=http://docbook.org/ns/docbook)xpath(/*/*[
+                            not(self::db:title) and not(self::db:section) and not(db:mediaobject)])">
+      <xi:fallback>
+      <xi:include href="../common/section_keystone-concepts.xml"
+                  xpointer="xmlns(db=http://docbook.org/ns/docbook)xpointer(/*/*[
+                            not(self::db:title) and not(self::db:section) and not(db:mediaobject)])"/>
+      </xi:fallback>
+      </xi:include>
+    </section>
     <xi:include href="section_identity-install-keystone.xml"/>
-    <xi:include href="../common/section_identity-troubleshooting.xml"/>
+    <xi:include href="section_identity-users.xml"/>
+    <xi:include href="section_identity-services.xml"/>
+
     <xi:include href="section_identity-verify-install.xml"/>
 </chapter>
