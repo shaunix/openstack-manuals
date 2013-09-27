@@ -48,7 +48,7 @@
     <note os="fedora">
       <para>On Fedora 19, <literal>firewalld</literal> replaced
       <literal>iptables</literal> as the default firewall. You can configure
-      <literal>iptables</literal> to allow OpenStack to work, but this guide
+      <literal>firewalld</literal> to allow OpenStack to work, but this guide
       currently recommends switching to <literal>iptables</literal>.</para>
       <screen><prompt>#</prompt> <userinput>service firewalld stop</userinput>
 <prompt>#</prompt> <userinput>service iptables start</userinput>
