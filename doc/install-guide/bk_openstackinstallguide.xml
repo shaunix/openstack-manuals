@@ -496,18 +496,7 @@
       -->
     </chapter>
 
-    <!-- FIXME -->
-    <chapter xml:id="ch_basics">
-      <title>Basic Operating System Configuration</title>
-     <!--
-         rdo/etc & openstack-utils
-         networking
-         ntp
-         mysql
-         qpid
-      -->
-    </chapter>
-
+    <xi:include href="ch_basics.xml"/>
     <xi:include href="ch_installidentity.xml"/>
     <xi:include href="ch_installimage.xml"/>
 
