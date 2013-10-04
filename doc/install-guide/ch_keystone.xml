@@ -2,7 +2,7 @@
 <chapter xmlns="http://docbook.org/ns/docbook"
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0"
-    xml:id="ch_installing-openstack-identity-service">
+    xml:id="ch_keystone">
 
     <title>Identity Service</title>
 
@@ -22,9 +22,8 @@
       </xi:fallback>
       </xi:include>
     </section>
-    <xi:include href="section_identity-install-keystone.xml"/>
-    <xi:include href="section_identity-users.xml"/>
-    <xi:include href="section_identity-services.xml"/>
-
-    <xi:include href="section_identity-verify-install.xml"/>
+    <xi:include href="section_keystone-install.xml"/>
+    <xi:include href="section_keystone-users.xml"/>
+    <xi:include href="section_keystone-services.xml"/>
+    <xi:include href="section_keystone-verify.xml"/>
 </chapter>

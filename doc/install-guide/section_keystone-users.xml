@@ -1,6 +1,6 @@
 <section xmlns="http://docbook.org/ns/docbook"
          xmlns:xlink="http://www.w3.org/1999/xlink"
-         xml:id="identity-users">
+         xml:id="keystone-users">
   <title>Defining Users, Tenants, and Roles</title>
 
   <para>Once Keystone is installed and running, you set up users, tenants,

@@ -19,7 +19,7 @@
   privileges. Either run the commands as the root user, or prefix them with the
   <command>sudo</command> command.</para>
 
-  <section xml:id="networking">
+  <section xml:id="basics-networking">
     <title>Networking</title>
 
     <para>For a production deployment of OpenStack, most nodes should have
@@ -128,7 +128,7 @@ ONBOOT=yes</programlisting>
 
   </section>
 
-  <section xml:id="ntp">
+  <section xml:id="basics-ntp">
     <title>Network Time Protocol (NTP)</title>
 
     <para>To keep all the services in sync across multiple machines, you
@@ -170,7 +170,7 @@ hwclock -w</programlisting>
 
   </section>
 
-  <section xml:id="database">
+  <section xml:id="basics-database">
     <title>MySQL Database</title>
 
     <para>Most OpenStack services require a database to store information.
@@ -212,7 +212,7 @@ hwclock -w</programlisting>
 
   </section>
 
-  <section xml:id="queue">
+  <section xml:id="basics-queue">
     <title>Messaging Server</title>
     <para>Install the messaging queue server. Typically this is
           <phrase os="ubuntu;opensuse">RabbitMQ</phrase><phrase os="centos;rhel;fedora">Qpid</phrase>
@@ -238,7 +238,7 @@ hwclock -w</programlisting>
 <prompt>#</prompt> <userinput>chkconfig qpidd on</userinput></screen>
   </section>
 
-  <section xml:id="packages">
+  <section xml:id="basics-packages">
     <title>OpenStack Packages</title>
 
     <!-- FIXME: ubuntu and opensuse -->

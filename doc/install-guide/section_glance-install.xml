@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section xml:id="install-glance"
+<section xml:id="glance-install"
     xmlns="http://docbook.org/ns/docbook"
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -45,7 +45,7 @@
   <note>
     <para>These examples assume you have the appropriate environment
     variables set to specify your credentials, as described in
-    <xref linkend="verifying-identity-install"/>.</para>
+    <xref linkend="keystone-verify"/>.</para>
   </note>
 
   <screen><prompt>#</prompt> <userinput>keystone user-create --name=glance --pass=<replaceable>GLANCE_PASS</replaceable> --email=<replaceable>glance@example.com</replaceable></userinput>

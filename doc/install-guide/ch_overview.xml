@@ -3,12 +3,12 @@
          xml:id="ch_overview">
   <title>Overview and Architecture</title>
 
-  <section xml:id="openstack-overview">
+  <section xml:id="overview-concepts">
     <title>OpenStack Overview</title>
     <!-- FIXME -->
   </section>
 
-  <section xml:id="architecture">
+  <section xml:id="overview-architecture">
     <title>Sample Architecture</title>
     <!-- FIXME -->
   </section>

@@ -488,8 +488,8 @@
     <xi:include href="ch_preface.xml"/>
     <xi:include href="ch_overview.xml"/>
     <xi:include href="ch_basics.xml"/>
-    <xi:include href="ch_installidentity.xml"/>
-    <xi:include href="ch_installimage.xml"/>
+    <xi:include href="ch_keystone.xml"/>
+    <xi:include href="ch_glance.xml"/>
     <xi:include href="ch_nova.xml"/>
     <!--
         Horizon
