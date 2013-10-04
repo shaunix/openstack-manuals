@@ -55,7 +55,7 @@
                     Ubuntu 12.04 (LTS).</phrase>
                 <phrase os="rhel;centos;fedora">This guide shows you
                     how to install OpenStack by using packages
-                    available through Fedora 17 as well as on RHEL and
+                    available through Fedora 19 as well as on RHEL and
                     derivatives through the EPEL repository.</phrase>
                 <phrase os="opensuse">This guide shows you
                     how to install OpenStack by using packages
