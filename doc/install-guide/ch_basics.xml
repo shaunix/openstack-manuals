@@ -82,7 +82,7 @@ ONBOOT=yes</programlisting>
 
     <example>
       <title><filename>/etc/sysconfig/network-scripts/ifcfg-eth1</filename></title>
-      <programlisting language="ini"># Internal Network
+      <programlisting language="ini"># External Network
 DEVICE=eth1
 TYPE=Ethernet
 BOOTPROTO=static

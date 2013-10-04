@@ -1,0 +1,15 @@
+<chapter xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xml:id="ch_overview">
+  <title>Overview and Architecture</title>
+
+  <section xml:id="openstack-overview">
+    <title>OpenStack Overview</title>
+    <!-- FIXME -->
+  </section>
+
+  <section xml:id="architecture">
+    <title>Sample Architecture</title>
+    <!-- FIXME -->
+  </section>
+</chapter>

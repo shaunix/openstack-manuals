@@ -486,45 +486,15 @@
          include statements. You can add additional chapters using
          these types of statements. -->
     <xi:include href="ch_preface.xml"/>
-
-    <!-- FIXME -->
-    <chapter xml:id="ch_overview">
-      <title>Overview and Architecture</title>
-      <!--
-          concepts
-          basic arch
-      -->
-    </chapter>
-
+    <xi:include href="ch_overview.xml"/>
     <xi:include href="ch_basics.xml"/>
     <xi:include href="ch_installidentity.xml"/>
     <xi:include href="ch_installimage.xml"/>
-
-    <chapter xml:id="ch_nova">
-      <title>Installing the Nova Compute Services</title>
-    </chapter>
-    <chapter xml:id="ch_compute">
-      <title>Creating a Compute Node</title>
-    </chapter>
-    <chapter xml:id="ch_FIXME">
-      <title>FIXME</title>
-    </chapter>
+    <xi:include href="ch_nova.xml"/>
     <!--
         Horizon
         Cinder
         Swift
         Neutron
-    -->
-    <!--
-    <xi:include href="ch_installing-openstack-overview.xml"/>
-    <xi:include href="ch_terminology.xml"/>
-    <xi:include href="ch_externals.xml"/>
-    <xi:include href="ch_assumptions.xml"/>
-    <xi:include href="ch_installcompute.xml"/>
-    <xi:include href="ch_installnetworking.xml"/>
-    <xi:include href="ch_instances-running.xml"/>
-    <xi:include href="ch_installobjectstorage.xml"/>
-    <xi:include href="ch_installdashboard.xml"/>
-    <xi:include href="ap_configuration_files.xml"/>
     -->
 </book>

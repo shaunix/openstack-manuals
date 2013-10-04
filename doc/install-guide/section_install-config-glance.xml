@@ -8,7 +8,7 @@
     version="5.0">
   <title>Installing and Configuring the Image Service</title>
 
-  <para>Install the Identy Service on the controller node.</para>
+  <para>Install the Image Service on the controller node.</para>
   <screen os="ubuntu"><prompt>#</prompt> <userinput>sudo apt-get install glance</userinput></screen>
   <screen os="rhel;centos;fedora"><prompt>#</prompt> <userinput>yum install openstack-glance</userinput></screen>
   <screen os="opensuse"><prompt>#</prompt> <userinput>zypper install openstack-glance</userinput></screen>
@@ -70,7 +70,7 @@
   Make sure the following options are set:</para>
 
   <programlisting language="ini">[filter:authtoken]
-paster.filter_factory=FIXME
+paste.filter_factory=keystoneclient.middleware.auth_token:filter_factory
 auth_host=controller
 admin_user=glance
 admin_tenant_name=service
