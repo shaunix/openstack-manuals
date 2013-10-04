@@ -7,6 +7,6 @@
 
     <remark><para>FIXME: Add either intro text or a Concepts section</para></remark>
 
-    <xi:include href="section_glance-install"/>
-    <xi:include href="section_glance-verify"/>
+    <xi:include href="section_glance-install.xml"/>
+    <xi:include href="section_glance-verify.xml"/>
 </chapter>
