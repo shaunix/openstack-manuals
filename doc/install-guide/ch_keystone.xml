@@ -4,7 +4,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0"
     xml:id="ch_keystone">
 
-    <title>Identity Service</title>
+    <title>Configuring the Identity Service</title>
 
     <!--
         FIXME: Way too much stuff in the entire section. Just include part of

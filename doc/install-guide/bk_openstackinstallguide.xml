@@ -491,10 +491,8 @@
     <xi:include href="ch_keystone.xml"/>
     <xi:include href="ch_glance.xml"/>
     <xi:include href="ch_nova.xml"/>
-    <!--
-        Horizon
-        Cinder
-        Swift
-        Neutron
-    -->
+    <xi:include href="ch_horizon.xml"/>
+    <xi:include href="ch_cinder.xml"/>
+    <xi:include href="ch_swift.xml"/>
+    <xi:include href="ch_neutron.xml"/>
 </book>

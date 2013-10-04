@@ -6,7 +6,7 @@
     xmlns:svg="http://www.w3.org/2000/svg"
     xmlns:html="http://www.w3.org/1999/xhtml"
     version="5.0">
-  <title>Installing and Configuring the Image Service</title>
+  <title>Installing the Image Service</title>
 
   <para>Install the Image Service on the controller node.</para>
   <screen os="ubuntu"><prompt>#</prompt> <userinput>sudo apt-get install glance</userinput></screen>
